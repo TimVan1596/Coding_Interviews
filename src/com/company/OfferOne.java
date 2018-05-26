@@ -22,13 +22,13 @@ public class OfferOne {
         }
 
         Solution solution = new Solution();
-        boolean result  = solution.Find(LEN,array);
+        boolean result  = solution.Find(LEN-1,array);
 
         if (result){
-
+            System.out.println("找到了");
         }
         else{
-
+            System.out.println("未找到");
         }
 
 
